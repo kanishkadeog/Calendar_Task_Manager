@@ -1,4 +1,4 @@
-### Calendar Task Manager – (PHP + MySQL + JS + TailwindCSS)
+## Calendar Task Manager – (PHP + MySQL + JS + TailwindCSS)
 
 A fully functional Google-Calendar-style Task Manager built using pure PHP, MySQL, Vanilla JavaScript, and TailwindCSS.
 The system allows users to add, edit, delete, filter, and update tasks using a calendar UI.
@@ -10,43 +10,45 @@ The project is fully deployed on InfinityFree including:
 
 ---
 
-🚀 Live Demo (InfinityFree Deployment)
+## 🚀 Live Demo (InfinityFree Deployment)
 
-➡️ Frontend + Backend + Database (Single deployment under htdocs)
-(Add your deployed link here)
+ Frontend + Backend + Database (Single deployment under htdocs)
+http://kanishkadeogade.infinityfreeapp.com/calendar_task_manager/
 
-📁 Project Features
-✅ 1. Google Calendar Style UI
+---
 
-Switch between previous/next months
+## 📁 Project Features
+ 1. Google Calendar Style UI
 
-Highlight today
+- Switch between previous/next months
 
-Click any date → Load tasks for that date
+- Highlight today
 
-✅ 2. Task CRUD (Create, Read, Update, Delete)
+- Click any date → Load tasks for that date
 
-Add task with title, description, due date, priority, category
+ 2. Task CRUD (Create, Read, Update, Delete)
 
-Edit a task
+- Add task with title, description, due date, priority, category
 
-Delete a task
+- Edit a task
 
-Toggle task status (Pending ↔ Completed)
+- Delete a task
 
-✅ 3. Filters
+- Toggle task status (Pending ↔ Completed)
 
-Filter by category, priority, status
+ 3. Filters
 
-Search tasks by title
+- Filter by category, priority, status
 
-✅ 4. AJAX-Based Operations
+- Search tasks by title
+
+ 4. AJAX-Based Operations
 
 No page refresh anywhere — everything uses:
 
 fetch() + PHP API + JSON responses
 
-✅ 5. Clean Architecture
+ 5. Clean Architecture
 📦 project
  ┣ 📂 api
  ┃ ┣ add_task.php
@@ -64,28 +66,32 @@ fetch() + PHP API + JSON responses
  ┣ index.php
  ┗ database.sql
 
-🛠️ Tech Stack
+---
+
+## 🛠️ Tech Stack
 Frontend
 
-HTML5
+- HTML5
 
-TailwindCSS
+- TailwindCSS
 
-JavaScript (Vanilla)
+- JavaScript (Vanilla)
 
-AJAX / fetch API
+- AJAX / fetch API
 
 Backend
 
-PHP (with PDO)
+- PHP (with PDO)
 
-REST-like API endpoints
+- REST-like API endpoints
 
 Database
 
-MySQL (InfinityFree Control Panel)
+- MySQL (InfinityFree Control Panel)
 
-🔌 API Endpoints
+---
+
+## 🔌 API Endpoints
 ➕ Add Task — POST /api/add_task.php
 📝 Update Task — POST /api/update_task.php
 ❌ Delete Task — POST /api/delete_task.php
@@ -95,7 +101,9 @@ MySQL (InfinityFree Control Panel)
 
 GET /api/get_tasks.php?filter=1&priority=high&category=work&search=text
 
-🗄️ Database Schema
+---
+
+## 🗄️ Database Schema
 CREATE TABLE tasks (
     id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(255) NOT NULL,
@@ -107,7 +115,9 @@ CREATE TABLE tasks (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
-🌐 Deployment Notes (InfinityFree)
+---
+
+## 🌐 Deployment Notes (InfinityFree)
 ✔ Uploaded all project files into /htdocs
 ✔ Created MySQL DB from control panel
 ✔ Imported database.sql through phpMyAdmin
@@ -118,11 +128,15 @@ $pass = "Mayuri56";
 $dbname = "if0_40506907_task_manager";
 
 ✔ Works fully online with AJAX + PHP APIs + MySQL
-📸 Screenshots
+---
+
+## 📸 Screenshots
 
 (Add screenshots section here once you upload images.)
 
-🧪 How to Run Locally
+---
+
+## 🧪 How to Run Locally
 1. Clone repo
 git clone <repo-url>
 
@@ -133,12 +147,12 @@ database.sql → phpMyAdmin
 4. Start PHP server
 php -S localhost:8000
 
-✔ Future Improvements
+##  Future Improvements
 
-User authentication
+- User authentication
 
-Google Calendar API sync
+- Google Calendar API sync
 
-Drag & drop tasks
+- Drag & drop tasks
 
-Weekly view mode
+- Weekly view mode
