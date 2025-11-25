@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: calendar-app
-    env: docker
-    plan: free
-    healthCheckPath: /
-    buildCommand: ""
-    startCommand: ""
