@@ -11,10 +11,12 @@ try {
             PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC
         ]
     );
+
 } catch (Exception $e) {
-    die(json_encode([
+    echo json_encode([
         "status" => "error",
         "message" => "DB Connection Failed: " . $e->getMessage()
-    ]));
+    ]);
+    exit;
 }
 ?>

@@ -1,6 +1,5 @@
-CREATE DATABASE calendar_tasks;
-USE calendar_tasks;
-
+-- CREATE DATABASE calendar_tasks;
+-- USE calendar_tasks;
 CREATE TABLE tasks (
     id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(255) NOT NULL,
