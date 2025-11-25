@@ -1,15 +1,14 @@
-Calendar Task Manager – (PHP + MySQL + JS + TailwindCSS)
+### Calendar Task Manager – (PHP + MySQL + JS + TailwindCSS)
 
 A fully functional Google-Calendar-style Task Manager built using pure PHP, MySQL, Vanilla JavaScript, and TailwindCSS.
 The system allows users to add, edit, delete, filter, and update tasks using a calendar UI.
 
 The project is fully deployed on InfinityFree including:
+- Frontend UI
+- Backend APIs
+- MySQL database hosted on InfinityFree hosting
 
-Frontend UI
-
-Backend APIs
-
-MySQL database hosted on InfinityFree hosting
+---
 
 🚀 Live Demo (InfinityFree Deployment)
 
