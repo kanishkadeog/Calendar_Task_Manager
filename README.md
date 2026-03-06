@@ -174,6 +174,115 @@ php -S localhost:8000
 
 Note:- The site mite not work if it was not in use ....
 
+Got a mail from infinityfree :-
+"Hi,
+Your InfinityFree account if0_40506907 (Website for kanishkadeogade.infinityfreeapp.com) has just been deleted.
+The account has been suspended for inactivity since 2026-01-29. To make room for new accounts, we automatically deleted inactive accounts after some time.
+When an account is deleted, all files, databases, settings and all other contents have been completely and permanently removed from our systems. Any domain names previously assigned to the hosting account have also been removed, and can now be used on other hosting accounts.
+Because the account is fully deleted, it is no longer possible to reactivate it or recover data from it.
+If you want to host a website with us again, please don't hesitate to create a new hosting account from your client area."
+
+---------
+So Follow the below step:- 
+
+Backend (PHP API) → InfinityFree
+Database (MySQL) → InfinityFree
+Frontend (HTML + JS) → InfinityFree
+
+1. Create InfinityFree Account
+Visit: https://infinityfree.net
+Click:
+➡ “Sign Up” / “Sign In”
+➡ Create account
+➡ Verify email
+
+2. Create a new Hosting Account
+After login:
+➡ Click Client Area
+➡ Click Create Account
+➡ Password: create your own
+➡ Choose a free subdomain: yourproject.infinityfreeapp.com (https://kanishkadeogade.infinityfreeapp.com/)
+➡ Click Create
+
+3. Open Control Panel → Create MySQL Database
+Go to Control Panel (cPanel)
+Inside search → type :- MySQL Databases.
+
+Create:
+- Database Name: task_manager
+- Database Username: auto-generated
+- Database Password: create your own
+- Database Hostname: something like
+
+ $host = "sql102.infinityfree.com";
+$user = "if0_40506907";
+$pass = "Mayuri56";
+$dbname = "if0_40506907_task_manager";) - copy it You will need them
+
+- ✳ InfinityFree gives you all four values.
+You must use these in config.php.
+
+4. Open phpMyAdmin & Import SQL
+In cPanel → Search “phpMyAdmin”.
+Open → Select your database → Click “Import”.
+- Upload your file: database.sql
+Click Go.
+
+Your table tasks is now created.
+
+5. Prepare Your Backend Folder
+Create a folder like this locally:
+backend/
+    api/
+        add_task.php
+        delete_task.php
+        update_task.php
+        toggle_status.php
+        get_tasks.php
+    config.php
+    db.php
+    index.php
+    custom.css
+
+6. Update config.php for InfinityFree MySQL
+Your config.php must be:
+"
+<?php
+$host = "sql102.infinityfree.com";       // InfinityFree MySQL hostname
+$user = "if0_40506907";                 // InfinityFree MySQL user
+$pass = "Mayuri56";                    // InfinityFree MySQL password
+$dbname = "if0_40506907_task_manager"; // Your DB name
+?>
+"
+Replace with your actual values.
 
 
+7. Upload Backend Files by File Manager
+Go to InfinityFree Control Panel
+➡ Open File Manager
+➡ Go to htdocs/
+➡ Upload your entire backend + frontend files/folder contents.
+
+Folder structure on the server:
+ htdocs/
+     api/
+        add_task.php
+        update_task.php
+        delete_task.php
+        toggle_status.php
+        get_tasks.php
+    js/
+        calendar.js
+        tasks.js
+    css/
+        custom.css
+    config.php
+    db.php
+    index.php
+
+....
+update git file 
+
+Refresh the page and wait for sometime
+click your website;- https://kanishkadeogade.infinityfreeapp.com/
 
