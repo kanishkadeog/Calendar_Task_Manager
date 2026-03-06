@@ -13,8 +13,7 @@ The project is fully deployed on InfinityFree including:
 ## 🚀 Live Demo (InfinityFree Deployment)
 
  Frontend + Backend + Database (Single deployment under htdocs)
-http://kanishkadeogade.infinityfreeapp.com/calendar_task_manager/
-
+https://kanishkadeogade.infinityfreeapp.com/
 ---
 
 ## 📁 Project Features
@@ -133,6 +132,20 @@ $dbname = "if0_40506907_task_manager";
 ## 📸 Screenshots
 
 (Add screenshots section here once you upload images.)
+
+<img width="1914" height="939" alt="image" src="https://github.com/user-attachments/assets/ca9a6aeb-e8d7-46ba-a8b1-1e78d413309a" />
+
+<img width="1907" height="958" alt="image" src="https://github.com/user-attachments/assets/37dad579-c6cf-4b48-abc1-84690e7ad18c" />
+
+<img width="1919" height="937" alt="image" src="https://github.com/user-attachments/assets/c651f229-fc68-492a-adec-27d42a23c536" />
+
+After applying filter
+
+<img width="1914" height="938" alt="image" src="https://github.com/user-attachments/assets/96ce8edc-46ed-4d3b-93ac-2e2e90a29eba" />
+
+<img width="1898" height="866" alt="image" src="https://github.com/user-attachments/assets/88c9a470-4a16-47c9-8e18-9ba859519041" />
+
+
 
 ---
 
