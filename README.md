@@ -193,7 +193,6 @@ Frontend (HTML + JS) → InfinityFree
 Visit: https://infinityfree.net
 Click:
 ➡ “Sign Up” / “Sign In”
-
 ➡ Create account
 ➡ Verify email
 
