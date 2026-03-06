@@ -193,10 +193,11 @@ Frontend (HTML + JS) → InfinityFree
 Visit: https://infinityfree.net
 Click:
 ➡ “Sign Up” / “Sign In”
+
 ➡ Create account
 ➡ Verify email
 
-2. Create a new Hosting Account
+3. Create a new Hosting Account
 After login:
 ➡ Click Client Area
 ➡ Click Create Account
@@ -204,7 +205,7 @@ After login:
 ➡ Choose a free subdomain: yourproject.infinityfreeapp.com (https://kanishkadeogade.infinityfreeapp.com/)
 ➡ Click Create
 
-3. Open Control Panel → Create MySQL Database
+4. Open Control Panel → Create MySQL Database
 Go to Control Panel (cPanel)
 Inside search → type :- MySQL Databases.
 
